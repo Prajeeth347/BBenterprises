@@ -29,3 +29,36 @@ h1{
     margin-left: 20%;
     margin-right: 20%;
 }
+@media screen and (max-width: 600px){
+    h1{
+        margin-left: 15%;
+        margin-right: 15%;
+        color: white;
+        font-family: 'Lato';
+        font-weight: 500;
+        font-size: 150%;
+    }
+    .hero-about{
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 23.5%;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    .hero-about h5{
+        color: white;
+        font-family: 'Lato';
+        font-weight: 100;
+        font-size: 160%;
+        padding-bottom: 2%;
+    }
+    .hero-about h3{
+        padding-top: 3%;
+        color: white;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-size: 120% !important;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}

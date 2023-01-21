@@ -16,7 +16,7 @@ const about_content = () => {
                 <h2>OUR MISSION</h2>
                 <p>"That doesn’t matter! The difficulties are there for the pleasure of surmounting them. Go forward, keep confidence and all will be well."</p>
                 <h2>OUR GOAL</h2>
-                <p>Lorem ipsum dolor sit amet, no vis integre malorum. In eirmod rationibus duo, alii minim elitr ne usu. Ea copiosae ocurreret mea, habemus mediocrem dissentias ad qui. Tollit impedit id has, usu velit laudem ea. Nam dolor omnes ad. Eius bonorum ceteros qui ea.
+                <p>Continual enhancement of our service levels resulting in optimal customer delight at all levels
 </p>
                 <h2>OUR VISION</h2>
                 <p>“We should do business at a profit preferably, and at a loss if we must" - Arthashastra-</p>
