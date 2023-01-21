@@ -1,0 +1,32 @@
+.main_wrapper_journey_main{
+    padding-top: 10%;
+    text-align: center;
+}
+.main_wrapper_journey_main h1{
+    text-align: center;
+    color: #085CBC;
+    font-family: 'lato';
+    font-size: 150%;
+    font-weight: 600;
+}
+.journey_main_content p{
+    text-align: center;
+    color: #7E7E7E;
+    font-family: 'Lato';
+    font-size: 90%;
+    font-weight: 400;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.journey_main_content img{
+    width: 30%;
+}
+@media screen and (max-width: 600px){
+    .main_wrapper_journey_main{
+        padding-top: 5%;
+    }
+    .journey_main_content img{
+        width: 80%;
+    }
+}

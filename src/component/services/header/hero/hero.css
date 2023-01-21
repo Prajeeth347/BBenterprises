@@ -1,0 +1,55 @@
+h1{
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 300%;
+}
+.hero-about{
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 23.5%;
+    vertical-align: middle;
+    justify-content: center;
+}
+.hero-about h5{
+    color: white;
+    font-family: 'Lato';
+    font-weight: 100;
+    font-size: 150%;
+    padding-bottom: 2%;
+}
+.hero-about h3{
+    padding-top: 3%;
+    color: white;
+    font-family: 'Lato';
+    font-weight: 200;
+    font-size: 150%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.brouchure_button_services{
+    text-decoration: none;
+    text-align: center;
+}
+.brouchure_button_services h4{
+    text-decoration: none;
+    margin-top: 3%;
+    margin-left:35%;
+    margin-right:35%;
+    width: 30%;
+    padding: 1%;
+    font-family: 'Outfit';
+    color: #fff;
+    background-color:#0093A1;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.hero-about a{
+    text-decoration: none;
+}
+.view_certi_but{
+    margin-top: 3%;
+}

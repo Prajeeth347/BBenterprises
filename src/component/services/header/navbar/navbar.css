@@ -1,0 +1,74 @@
+.navmain_wrapper{
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 2%;
+}
+div#offcanvasNavbar-expand-md{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.unselected_nav_item{
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 150%;
+    color: #7E7E7E !important;
+    padding-right: 2% !important;
+}
+.selected_nav_item{
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 150%;    
+    color: #0093A1 !important;
+    padding-right: 2% !important;
+}
+.contact_nav_item{
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 150%;
+    padding: 1%;
+    color: #fff !important;
+    background-color: #0093A1;
+}
+
+.navbar-brand img{
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+}
+.navbar-brand .brand_name{
+    font-size: 180%;
+    color: #0093A1;
+}
+.navbar-brand .brand_sub_name{
+    padding-top: 0% !important;
+    font-size: 80%;
+    color: #7E7E7E;
+}
+.navbar-brand .brand-side-nav{
+    display: inline-block;
+}
+span.navbar-toggler-icon{
+    filter: contrast(0);
+    color: white !important;
+}
+@media screen and (max-width: 600px){
+    .navbar-brand img{
+        height: 30%;
+        width: 30%;
+        display: inline-block;
+    }
+    .navbar-brand .brand_name{
+        font-size: 100%;
+        color: #0093A1;
+    }
+    .navbar-brand .brand_sub_name{
+        font-size: 60%;
+        color: #7E7E7E;
+    }
+    .navmain_wrapper{
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 2%;
+    }
+}

@@ -1,0 +1,133 @@
+.main_wrapper_services_main h1{
+    text-align: center;
+    color: #085CBC;
+    font-family: 'lato';
+    margin-top: 15%;
+    font-size: 300%;
+    font-weight: 600;
+}
+
+.main_wrapper_services_main{
+    margin-bottom: 50%;
+}
+
+.services_main_odd{
+    display: flex;
+    vertical-align: bottom;
+    padding-right: 10%;
+    padding-top: 3%;
+    float: right;
+    width: 80%;
+}
+.services_odd_content_main{
+    margin-top: auto;
+    margin-bottom: 0%;
+    padding-right: 2%;
+    display: inline-block;
+    width: 65%;
+}
+.services_odd_image_main{
+    display: inline-block;
+}
+.services_odd_content_main h2{
+    color: #085CBC;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 200%;
+    text-align: right;
+}
+.services_odd_content_main p{
+    text-align: right;
+    color: #7E7E7E;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 100%;
+    padding-bottom: 3%;
+}
+
+.services_main_even{
+    display: flex;
+    vertical-align: bottom;
+    padding-left: 10%;
+    padding-top: 3%;
+    float: left;
+    width: 80%;
+}
+.services_even_content_main{
+    margin-top: auto;
+    margin-bottom: 0%;
+    padding-left: 2%;
+    display: inline-block;
+    width: 65%;
+}
+.services_even_image_main{
+    display: inline-block;
+}
+.services_even_content_main h2{
+    color: #085CBC;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 200%;
+    text-align: left;
+}
+.services_even_content_main p{
+    text-align: left;
+    color: #7E7E7E;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 100%;
+    padding-bottom: 3%;
+    
+}
+@media screen and (min-width: 600px){
+.services_main_odd_mobile{
+    display: none;
+}
+}
+
+@media screen and (max-width: 600px){
+    .main_wrapper_services_main h1{
+        text-align: center;
+        background-image: none;
+        color: #085CBC;
+        font-family: 'lato';
+        margin-top: 25%;
+        font-size: 250%;
+        font-weight: 600;
+    }
+    .services_main_odd{
+        display: none;
+    }
+    .services_main_odd_mobile{
+        text-align: center;
+        padding-top: 3%;
+    }
+    .services_odd_content_main{
+        width: 95%;
+    }
+    .services_odd_image_main img{
+        width: 80%;
+    }
+    .services_odd_content_main h2{
+        color: #085CBC;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 150%;
+        text-align: center;
+    }
+    .services_odd_content_main p{
+        text-align: center;
+        color: #7E7E7E;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 80%;
+    }
+    
+    
+    .services_main_even{
+       display: none;
+    }
+    .main_wrapper_services_main{
+        margin-bottom: 10%;
+    }
+}

@@ -1,0 +1,32 @@
+h1{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 300%;
+}
+.hero-main{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 23.5%;
+    vertical-align: middle;
+    justify-content: center;
+}
+h5{
+    color: white;
+    font-family: 'Lato';
+    font-weight: 100;
+    font-size: 150%;
+    padding-bottom: 2%;
+}
+h3{
+    color: white;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 200%;
+    margin-left: 20%;
+    margin-right: 20%;
+}

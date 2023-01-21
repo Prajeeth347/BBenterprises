@@ -1,0 +1,37 @@
+@media screen and (max-width: 600px){
+    .contactus_main_shared{
+        display: none;
+    }
+}
+.contactus_main_shared{
+
+    background-color: #3367A3;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+}
+.contactus_main_shared h2{
+    color: white;
+    font-size: 150%;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.contactus_main_shared a{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: 300;
+    display: block;
+    font-family: 'Poppins';
+}
+.contactus_main_shared p{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: 300;
+    display: block;
+    font-family: 'Poppins';
+}

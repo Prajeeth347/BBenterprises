@@ -1,0 +1,56 @@
+.Testimonials_main_title h1{
+    text-align: center;
+    color: #085CBC;
+    font-family: 'lato';
+    margin-top: 5%;
+    font-size: 300%;
+    font-weight: 600;
+}
+.testi_content_main p{
+    text-align: center;
+}
+.testi_content_main{
+    text-align: center;
+}
+.testi_content_main{
+    padding-top: 3%;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+.testi_content_main table tr td{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Outfit';
+    color: #7E7E7E;
+    font-weight: 400;
+ }
+
+ @media screen and (min-width:600px) {
+    .mob_testi_main{
+        display: none;
+    }
+ }
+@media screen and (max-width: 600px){
+    .Testimonials_main_title h1{
+        text-align: center;
+        color: #085CBC;
+        font-family: 'lato';
+        margin-top: 15%;
+        font-size: 250%;
+        font-weight: 600;
+    }
+    .testi_content_main{
+        display: none;
+    }
+    .mob_testi_main p{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+        font-family: 'Outfit';
+        color: #7E7E7E;
+        font-weight: 400;
+    }
+
+}

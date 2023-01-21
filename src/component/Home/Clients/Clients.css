@@ -1,0 +1,89 @@
+.clients_main_title h1{
+    text-align: center;
+    color: #085CBC;
+    font-family: 'lato';
+    margin-top: 5%;
+    font-size: 300%;
+    font-weight: 600;
+}
+.clients_content_main{
+    padding-top: 3%;
+    text-align: center;
+}
+.clients_content_main img{
+    width: 100%;
+}
+.main_wrapper_clients_main{
+    padding-bottom: 10%;
+}
+.first_main_wrap_content{
+    display: flex;
+    justify-content: center;
+}
+.clients_second_main{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.clients_first_main{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.vertical {
+    border-left: 2px solid black;
+    height: 180px;
+}
+.meshalogo{
+    padding-left: 4%;
+}
+.clients_second_main{
+    height: 30%;  
+    align-items: flex-end;
+    display: flex;
+}
+.clients_second_main img{
+    height: 10%;
+    width: 25%;
+}
+ @media screen and (min-width:600px) {
+    .mob_clients_main{
+        display: none;
+    }
+ }
+@media screen and (max-width: 600px){
+    .clients_main_title h1{
+        text-align: center;
+        color: #085CBC;
+        font-family: 'lato';
+        margin-top: 15%;
+        font-size: 250%;
+        font-weight: 600;
+    }
+    .clients_content_main{
+        display: none;
+    }
+    .mob_clients_main {
+        padding-top: 5%;
+        text-align: center;
+        font-family: 'Outfit';
+        color: #7E7E7E;
+        font-weight: 400;
+    }
+    .mob_clients_main img{
+        padding-bottom: 3%;
+        height: 80%;
+        width: 80%;
+    }
+    .mob_clients_main p{
+        color: #000;
+        font-family: 'lato';
+        margin-top: 3%;
+        font-size: 80%;
+        font-weight: 900;
+    }
+    .main_wrapper_clients_main{
+        padding-bottom: 40%;
+    }
+}
