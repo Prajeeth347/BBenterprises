@@ -43,6 +43,13 @@
     .testi_content_main{
         display: none;
     }
+    .mob_testi_main{
+        padding-top: 4%;
+        text-align: center;
+    }
+    .mob_testi_main img{
+        width: 80%;
+    }
     .mob_testi_main p{
         padding-top: 5%;
         padding-left: 5%;

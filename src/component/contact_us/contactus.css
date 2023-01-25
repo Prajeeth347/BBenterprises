@@ -27,6 +27,14 @@
     display: block;
     font-family: 'Poppins';
 }
+.contactus_main_shared a:hover{
+    color: grey;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: 300;
+    display: block;
+    font-family: 'Poppins';
+}
 .contactus_main_shared p{
     color: white;
     text-decoration: none;

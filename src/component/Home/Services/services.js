@@ -9,7 +9,7 @@ const Services_main = () => {
                 <div className='services_main_all_wrap'>
                 <div className='services_main_odd'>
                     <div className='services_odd_content_main'>
-                    <h2>DISTRIBUTION AND SUPER STOCKLIST</h2>
+                    <h2>DISTRIBUTION AND SUPER STOCKIST</h2>
                     <p>With us, you get hassle-free queueing of stocks with complete tracking visibility & cost-saving solutions both physically and systematically
 all the way to a seamless & synchronized delivery with assured quality supported by strong back-office operations. Let us take care of all your shipment needs - from start to finish!</p>
                     </div>
@@ -34,7 +34,7 @@ all the way to a seamless & synchronized delivery with assured quality supported
                         <img src= {service_1}></img>
                     </div>
                     <div className='services_odd_content_main'>
-                    <h2>DISTRIBUTION AND SUPER STOCKLIST</h2>
+                    <h2>DISTRIBUTION AND SUPER STOCKIST</h2>
                     <p>With us, you get hassle-free queueing of stocks with complete tracking visibility & cost-saving solutions both physically and systematically
 all the way to a seamless & synchronized delivery with assured quality supported by strong back-office operations. Let us take care of all your shipment needs - from start to finish!</p>
                     </div>

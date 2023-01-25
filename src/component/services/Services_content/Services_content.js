@@ -15,6 +15,8 @@ import eight from '../../../Assets/gallery/eight.png'
 import nine from '../../../Assets/gallery/nine.png'
 import ten from '../../../Assets/gallery/ten.png'
 import ImageSlider, { Slide } from "react-auto-image-slider";
+import Slider from './slider.js';
+import SliderItem from './slider_content.js';
 
 const Services_content = () => {
     return (
@@ -59,33 +61,21 @@ const Services_content = () => {
             </div>
             <div className='services_main_content'>
             <h2>Gallery</h2>
+            <Slider className="Slider_auto">
+                <SliderItem text="Slider 1" color= {one} />
+                <SliderItem text="Slider 2" color={two} />
+                <SliderItem text="Slider 3" color={three} />
+                <SliderItem text="Slider 4" color={four} />
+                <SliderItem text="Slider 5" color={five} />
+                <SliderItem text="Slider 6" color={six} />
+                <SliderItem text="Slider 7" color={seven} />
+                <SliderItem text="Slider 8" color={eight} />
+                <SliderItem text="Slider 9" color={nine} />
+                <SliderItem text="Slider 10" color={ten} />
+                </Slider>
             </div>
             <div className='slider_div'>
-            <ImageSlider effectDelay={500} autoPlayDelay={2000}>
-            <Slide>
-                <img alt="img2" src={one} />
-            </Slide>
-            <Slide>
-                <img alt="img2" src={two} />
-            </Slide>
-            <Slide>
-                <img className='slider_image' alt="img2" src={three} />
-            </Slide><Slide>
-                <img className='slider_image' alt="img2" src={four} />
-            </Slide><Slide>
-                <img className='slider_image' alt="img2" src={five} />
-            </Slide><Slide>
-                <img className='slider_image' alt="img2" src={six} />
-            </Slide><Slide>
-                <img className='slider_image' alt="img2" src={seven} />
-            </Slide><Slide>
-                <img className='slider_image' alt="img2" src={eight} />
-            </Slide><Slide>
-                <img className='slider_image' alt="img2" src={nine} />
-            </Slide><Slide>
-                <img className='slider_image' alt="img2" src={ten} />
-            </Slide>
-            </ImageSlider>
+        
             </div>
                 </div>
         );

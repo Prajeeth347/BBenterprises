@@ -32,8 +32,8 @@ div#offcanvasNavbar-expand-md{
 }
 
 .navbar-brand img{
-    height: 50%;
-    width: 50%;
+    height: 25% !important;
+    width: 25% !important;
     display: inline-block;
 }
 .navbar-brand .brand_name{
@@ -52,23 +52,63 @@ span.navbar-toggler-icon{
     filter: contrast(0);
     color: white !important;
 }
+@media screen and (min-width: 600px){
+    .bluediv{
+        display: none;
+    }
+}
 @media screen and (max-width: 600px){
+    .navbar-brand{
+        padding-right: -1%;
+        width: 70%;
+    }
     .navbar-brand img{
-        height: 30%;
-        width: 30%;
+        height: 25% !important;
+        width: 25% !important;
         display: inline-block;
     }
     .navbar-brand .brand_name{
-        font-size: 100%;
+        font-size: 90% !important;
         color: #0093A1;
     }
     .navbar-brand .brand_sub_name{
-        font-size: 60%;
+        font-size: 50% !important;
         color: #7E7E7E;
     }
     .navmain_wrapper{
-        padding-right: 5%;
-        padding-left: 5%;
+        padding-right: 3%;
+        padding-left: 3%;
         padding-top: 2%;
+    }
+    .brand-side-nav{
+        padding-top: 3%;
+    }
+    .bluediv{
+        width: 100%;
+        background-color: #3367A3;
+        padding:5%;
+        text-align: center;
+    }
+    .bluediv p{
+        font-family: 'Poppins';
+        font-size: 100%;
+        font-weight: 300;
+        color: #E6E6E6;
+    }
+    .social_icons{
+        padding-bottom: 8% !important;
+        padding-top: 3% !important;
+    }
+    .social_icons a{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    svg.social_icons_mobile {
+        color: white;
+        width: 9%;
+        height: 7%;
+    }
+    .contact_nav_item{
+        display: none !important;
     }
 }

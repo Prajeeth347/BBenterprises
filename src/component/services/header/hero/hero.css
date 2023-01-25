@@ -1,4 +1,4 @@
-h1{
+.hero-services h1{
     margin-left: 15%;
     margin-right: 15%;
     color: white;
@@ -6,21 +6,24 @@ h1{
     font-weight: 500;
     font-size: 300%;
 }
-.hero-about{
+.hero-services{
     text-align: center;
     padding-top: 6%;
     padding-bottom: 23.5%;
     vertical-align: middle;
     justify-content: center;
 }
-.hero-about h5{
+.sc-bcXHqe.epKbGN {
+    display: none;
+}
+.hero-services h5{
     color: white;
     font-family: 'Lato';
     font-weight: 100;
     font-size: 150%;
     padding-bottom: 2%;
 }
-.hero-about h3{
+.hero-services h3{
     padding-top: 3%;
     color: white;
     font-family: 'Lato';
@@ -47,36 +50,36 @@ h1{
     border-radius: 20px;
 }
 
-.hero-about a{
+.hero-services a{
     text-decoration: none;
 }
 .view_certi_but{
     margin-top: 3%;
 }
 @media screen and (max-width: 600px){
-    h1{
+    .hero-services h1{
         margin-left: 15%;
         margin-right: 15%;
         color: white;
         font-family: 'Lato';
         font-weight: 500;
-        font-size: 150%;
+        font-size: 150% !important;
     }
-    .hero-about{
+    .hero-services{
         text-align: center;
         padding-top: 6%;
         padding-bottom: 23.5%;
         vertical-align: middle;
         justify-content: center;
     }
-    .hero-about h5{
+    .hero-services h5{
         color: white;
         font-family: 'Lato';
         font-weight: 100;
         font-size: 100%;
         padding-bottom: 2%;
     }
-    .hero-about h3{
+    .hero-services h3{
         padding-top: 3%;
         color: white;
         font-family: 'Lato';
@@ -103,7 +106,7 @@ h1{
         border-radius: 20px;
     }
     
-    .hero-about a{
+    .hero-services a{
         text-decoration: none;
     }
 

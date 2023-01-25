@@ -11,7 +11,7 @@ const HeroMain = () => {
         <div className='hero-main'>
             <h1>PASSION DRIVES US!</h1>
             <h5>Streamline Your Distribution<br></br> and Logistics with Us</h5>
-            <h3>Our concern has a tagline - Passion drives us which summerizes our zeal to excel & dealiver on a continuous growth path.</h3>
+            <h3>Our concern has a tagline - Passion drives us which summerizes our zeal to excel & deliver on a continuous growth path.</h3>
         </div>
     );
 };

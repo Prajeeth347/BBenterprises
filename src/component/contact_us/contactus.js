@@ -21,7 +21,7 @@ const Contactus_main_shared = () => {
                                 small={ourStory}
                                 >
                                 </ModalImage>
-                            <a href="">Privacy Policy</a>
+                            <a href="/privacy">Privacy Policy</a>
                             <a href="/">Home</a>
                             <a href="/services">Services</a>
                         </div>
@@ -36,11 +36,10 @@ const Contactus_main_shared = () => {
                     </div>
                     <div className="contactus_main_Social">
                     <div classname="contactus_main_social_title"><h2>Social</h2></div>
-                    <a href="">Contact Us</a>
-                    <a href="">Facebook</a>
-                    <a href="">Twitter</a>
-                    <a href="">Instagram</a>
-                    <a href="">Linkedin</a>
+                    <a href="mailto:bbenterprises2019@yahoo.com">Email</a>
+                    <a href="https://twitter.com/bbent_in">Twitter</a>
+                    <a href="https://www.instagram.com/bbent_in/">Instagram</a>
+                    <a href="https://www.linkedin.com/in/bb-enterprises-a16155263">Linkedin</a>
                     </div>
         </div>
     );}

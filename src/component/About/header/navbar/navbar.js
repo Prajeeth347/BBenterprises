@@ -8,6 +8,13 @@ import logo from '../../../../Assets/logo.png'
 import Form from 'react-bootstrap/Form';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Button from 'react-bootstrap/Button';
+import ModalImage from "react-modal-image";
+import storyimg from '../../../../Assets/ourStoryMain.png'
+import ourStory from '../../../../Assets/OurStory.png'
+import { FaTwitter,FaInstagram,FaGlobe,FaLinkedinIn,FaFacebook,FaHome} from "react-icons/fa";
+import { CgProfile} from "react-icons/cg";
+import { MdOutlineMiscellaneousServices} from "react-icons/md";
+
 
 // src/component/Home/header/navbar/navbar.js
 // src/component/Home/header/header.css
@@ -45,12 +52,23 @@ const NavBarMain = () => {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav className="justify-content-end flex-grow-1 pe-3">
-                    <Nav.Link className='unselected_nav_item' href="/">Home</Nav.Link>
-                    <Nav.Link className='selected_nav_item' href="#">About Us</Nav.Link>
-                    <Nav.Link className='unselected_nav_item' href="/services">Services</Nav.Link>
+                    <Nav.Link className='unselected_nav_item' href="/"><FaHome/>Home</Nav.Link>
+                    <Nav.Link className='selected_nav_item' href="#"><CgProfile/> About Us</Nav.Link>
+                    <Nav.Link className='unselected_nav_item' href="/services"><MdOutlineMiscellaneousServices/> Services</Nav.Link>
                     <Nav.Link className='contact_nav_item' href="#contactus">Contact us</Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
+                <div className='bluediv'>
+                  <div className='social_icons'>
+                    <a href='https://twitter.com/bbent_in'><FaTwitter className='social_icons_mobile'/></a>
+                    <a href='https://www.instagram.com/bbent_in/'><FaInstagram className='social_icons_mobile'/></a>
+                    <a href='mailto:bbenterprises2019@yahoo.com'><FaGlobe className='social_icons_mobile'/></a>
+                    <a href='https://www.linkedin.com/in/bb-enterprises-a16155263'><FaLinkedinIn className='social_icons_mobile'/></a>
+                  </div>
+                    <p>11/3 Ganganagar Katakhal,<br/>  Madhyamgram, North 24 Parganas<br/>
+Kolkata, West Bengal-700132
+</p>
+                  </div>
               </Navbar.Offcanvas>
             </Container>
           </Navbar>

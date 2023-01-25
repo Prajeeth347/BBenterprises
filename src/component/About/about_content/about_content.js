@@ -3,7 +3,8 @@ import about_pc1 from '../../../Assets/about_pic_1.png'
 import about_pc2 from '../../../Assets/about_pic_2.png'
 import './about_content.css'
 import current_operate_1 from '../../../Assets/current_operate_1.png'
-import current_operate_2 from '../../../Assets/current_operate_2.png'
+import current_operate_2 from '../../../Assets/Group118.png'
+import current_operate_3 from '../../../Assets/Group120.png'
 
 const about_content = () => {
     return (
@@ -24,6 +25,7 @@ const about_content = () => {
                 <h2>CURRENTLY WE OPERATE IN</h2>
                 <img src = {current_operate_1}/>
                 <img src = {current_operate_2}/>
+                <img src = {current_operate_3}/>
             </div>
         </div>
         );
